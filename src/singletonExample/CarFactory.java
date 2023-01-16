@@ -9,4 +9,10 @@ public class CarFactory {
         }
         return instances;
     }
+
+    public Car creatCar(){ //CarFactory에서 Car 인스턴스를 생성
+        Car car = new Car();
+        return car;
+    }
+
 }
