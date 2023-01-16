@@ -10,5 +10,4 @@ public class CardTest {
         Card haNa = new Card("하나 카드");
         System.out.println(Card.getSerialNum());
         System.out.println(haNa.getCardName() + "의 카드고유 번호는 " + haNa.getCardNum() + "입니다.");
-    }
-}
+    }}
